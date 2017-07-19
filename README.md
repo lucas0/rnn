@@ -1,3 +1,6 @@
+I'm not the author of the code, just did minor code fixes. 
+I want this on my git solely not to have to debug it again.
+
 **[Please read the blog post that goes with this code!](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)**
 
 ### Jupyter Notebook Setup
@@ -39,8 +42,7 @@ sudo apt-get update
 sudo apt-get install -y cuda
 sudo reboot
 
-# Clone the repo and install requirements
-git clone git@github.com:dennybritz/nn-theano.git
+#Install requirements
 cd nn-theano
 sudo pip install -r requirements.txt
 
