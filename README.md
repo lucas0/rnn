@@ -1,6 +1,18 @@
 I'm not the author of the code, just did minor code fixes. 
 I want this on my git solely not to have to debug it again.
 
+
+In order to run and generate your own sentences:
+
+open *rnn_theano.py*
+
+Uncomment commented lines and run it. This will tokenize and save X, Y and the dictionaries for the vocabulary into a pickle file *save.p*.
+
+For following runs, comment the first section of the code again. (You don't have to tokenize and create the dicts everytime.)
+
+Modify your *generate_sentence()* func for extra fun.
+
+
 **[Please read the blog post that goes with this code!](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)**
 
 ### Jupyter Notebook Setup
